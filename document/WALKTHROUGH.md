@@ -9,8 +9,8 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md). Traffic enters on port 80 (NGINX) and 
 ## 2. Local verification (optional)
 
 ```bash
-git clone https://github.com/adityasinghrana76/workspace_aditya.git
-cd workspace_aditya
+git clone https://github.com/Adarsh239004/AI_Backend_application.git
+cd AI_Backend_application
 cp .env.example .env
 docker compose up -d --build
 curl http://localhost/health
@@ -77,6 +77,6 @@ curl -X POST http://<EC2_IP>/chat \
 
 ## Repository links
 
-- **Code:** https://github.com/adityasinghrana76/workspace_aditya
+- **Code:** https://github.com/Adarsh239004/AI_Backend_application
 - **Workflow:** `.github/workflows/deploy.yml`
 - **Docs index:** [README.md](./README.md)
